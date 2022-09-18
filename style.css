@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+}
+img{
+    width: 300px;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 150px;
+    border-width: 10px;
+    border-style: dotted none none;
+    border-color: red;
+}
+
+
+.container1{
+    background-image: linear-gradient(#00008B,#1E90FF,DeepSkyBlue,#87CEFA,#FFA500);
+    height: 1050px;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/* cloud design and positioning*/
+.cloud{
+    display: inline-block;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+#c2,#c4{
+    width: 200px;
+    position: relative;
+    top: 70px;
+}
+
+
+/* styling the Mountain in the background...*/
+
+.hill{
+    display: inline-block;
+    width: 100%;
+    margin-top: 200px;
+}
+#t1{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* this section is used for styling the intro...*/
+.intro{
+    font-family: "Lucida Handwriting";
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    margin-top: 150px;
+}
+
+#myimg{
+    display: block;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+#intro-span{
+    color: #7CFC00;
+    text-shadow: 5px 5px 2px rgb(149, 0, 255);
+    transition: all;
+    transition-duration:0.5s;
+}
+#intro-span:hover{
+    color: yellow;
+    text-shadow: 5px 5px 2px red;
+    font-size: 62px;
+}
+
+#intro-h1{
+    margin-left: 400px;
+    color: white;
+    word-spacing: 10px;
+    margin-bottom: 0px;
+    text-shadow: 5px 5px 2px black;
+}
+
+
+#intro-p{
+    margin-left: 450px;
+    color: white;
+    font-weight: bolder;
+    word-spacing: 5px;
+    margin-top: 1px;
+    text-shadow: 5px 5px 2px black;
+    transition: all;
+    transition-duration:0.5s;
+}
+#intro-p:hover{
+    color: yellow;
+    text-shadow: 5px 5px 2px red;
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+/* this is the start of the container - 2 */
+/*--------------------------------------------------------------------------------------------------*/
+
+.container2{
+    background-image: linear-gradient(#483D8B,#9400D3,#FF00FF,#F08080,#FFA500,#FF4500);
+    height: 1400px;
+    width: 100vw;
+    padding-top: 50px;
+}
+.c2-h1{
+    text-align: center;
+    margin: 0px;
+    font-family: "Lucida Handwriting";
+    font-size: 70px;
+    color: white;
+    text-shadow: 5px 5px 2px #ff0088;
+}
+.c2_left{
+    height: 200px;
+    width: 70%;
+    display: inline-block;
+    padding: 30px;
+    position: relative;
+    bottom: 50px;
+}
+
+.c2_left_p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* this section will be used to change the education section of my portfolio*/
+/*-----------------------------------------------------------------------------------------------*/
+li{
+    margin: 10px 0px;
+}
+.c2_ul{
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+
